@@ -1,0 +1,25 @@
+h1 {
+  color: blue;
+}
+
+body {
+  background-color: aqua;
+}
+
+#first-section {
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+  width: 50vw;
+  /* height: 100vh; */
+  margin: 50px auto;
+  border: 10px solid red;
+  /* padding: 20px; */
+}
+
+@media screen and (max-width: 600px) {
+  #first-section {
+    width: 100vw;
+    background-color: greenyellow;
+  }
+}
